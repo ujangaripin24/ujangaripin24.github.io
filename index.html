@@ -1,1324 +1,335 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Ujang Aripin</title>
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet">
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
-  <link href="css/aos.css?ver=1.1.0" rel="stylesheet">
-  <link href="css/bootstrap.min.css?ver=1.1.0" rel="stylesheet">
-  <link href="css/main.css?ver=1.1.0" rel="stylesheet">
-  <noscript>
-    <style type="text/css">
-      [data-aos] {
-        opacity: 1 !important;
-        transform: translate(0) scale(1) !important;
-      }
-    </style>
-  </noscript>
+    <meta charset="utf-8">
+    <title>FreeFolio - Freelancer Portfolio Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet"> 
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
 </head>
 
-<body id="top">
-  <header>
-    <div class="profile-page sidebar-collapse">
-      <nav class="navbar navbar-expand-lg fixed-top navbar-transparent bg-dark" color-on-scroll="400">
+<body data-spy="scroll" data-target=".navbar" data-offset="51">
+    <!-- Navbar Start -->
+    <nav class="navbar fixed-top shadow-sm navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-lg-5">
+        <a href="index.html" class="navbar-brand ml-lg-3">
+            <h1 class="m-0 display-5"><span class="text-primary">Free</span>Folio</h1>
+        </a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse px-lg-3" id="navbarCollapse">
+            <div class="navbar-nav m-auto py-0">
+                <a href="#about" class="nav-item nav-link">Tentang Saya</a>
+                <a href="#qualification" class="nav-item nav-link">Pendidikan & Pengalaman Bekerja</a>
+                <a href="#service" class="nav-item nav-link">Keterampilan</a>
+                <a href="#portfolio" class="nav-item nav-link">Portfolio</a>
+            </div>
+            <a href="" class="btn btn-outline-primary d-none d-lg-block">Hire Me</a>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- About Start -->
+    <div class="container-fluid py-5" id="about">
         <div class="container">
-          <div class="collapse navbar-collapse justify-content-end" id="navigation">
-            <ul class="navbar-nav">
-              <li class="nav-item"><a class="nav-link smooth-scroll" href="#about">Tentang Saya</a></li>
-              <li class="nav-item"><a class="nav-link smooth-scroll" href="#skill">Keterampilan</a></li>
-              <li class="nav-item"><a class="nav-link smooth-scroll" href="#portfolio">Portfolio</a></li>
-              <li class="nav-item"><a class="nav-link smooth-scroll" href="#experience">Pengalaman Bekerja</a></li>
-              <li class="nav-item"><a class="nav-link smooth-scroll" href="#education">Riwayat Pendidikan</a></li>
-            </ul>
-          </div>
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #fff;">TENTANG</h1>
+                <h1 class="position-absolute text-uppercase text-primary">TENTANG SAYA</h1>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-5 pb-4 pb-lg-0">
+                    <img class="img-fluid rounded w-100" src="img/about.jpg" alt="">
+                </div>
+                <div class="col-lg-7">
+                    <h3 class="mb-4">Front End Developer | Mobile Developer | Web Developer | Map-Based Developer</h3>
+                    <p class="text-justify">Saya lulus dari STMIK AMIK Bandung dengan IPK 3.32 dalam bidang Sistem Informasi. Saya berfokus pada pengembangan perangkat lunak dan pemetaan digital berbasis website. Saya memiliki pengalaman sebagai Frontend Developer menggunakan Frameworks seperti Vue.js, React.js, dan Angular. Saya juga mahir dalam bekerja dalam tim dan menggunakan GIT untuk kontrol versi. Selain itu, saya familiar dengan berbagai teknologi lain seperti Firebase, Express.js, React-Native, dan Typescript. Minat saya juga meliputi desain grafis menggunakan Adobe Photoshop, Adobe Illustrator, dan Figma.</p>
+                    <div class="row mb-3">
+                        <div class="col-sm-6 py-2"><h6>Nama: <span class="text-secondary">Ujang Aripin</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6>Usia: <span class="text-secondary">24 Tahun</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6>Pendidikan: <span class="text-secondary">Strata 1</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6>Nomor Telepon: <span class="text-secondary">0859-5983-4070</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6>Email: <span class="text-secondary">ujangarifin06@gmail.com</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6>Domisili: <span class="text-secondary">Kota Bandung dan Sekitarnya</span></h6></div>
+                    </div>
+                    <a href="" class="btn btn-outline-primary mr-4">Hire Me</a>
+                    <a href="" class="btn btn-outline-primary">Learn More</a>
+                </div>
+            </div>
         </div>
-      </nav>
     </div>
-  </header>
+    <!-- About End -->
 
-  <div class="page-content">
-    <div class="profile-page">
-      <div class="wrapper">
-        <div class="page-header page-header-small" filter-color="dark">
-          <div class="page-header-image" data-parallax="true" style="background-image: url('images/cc-bg-1.jpg')">
-          </div>
-          <div class="container">
-            <div class="content-center">
-              <div class="cc-profile-image"><a href="#"><img src="images/ujang.jpg" alt="Image" /></a></div>
-              <div class="h1 title">UJANG ARIPIN</div>
-              <p class="category text-white">Frontend Web Developer | Map-Based Developer | GIS Enthusiast</p>
+    <!-- Qualification Start -->
+    <div class="container-fluid py-5" id="qualification">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #fff;">Quality</h1>
+                <h1 class="position-absolute text-uppercase text-primary">Pendidikan & Pengalaman Bekerja</h1>
             </div>
-          </div>
-          <div class="section">
-            <div class="container">
-              <div class="button-container">
-                <a class="btn btn-default btn-round btn-lg btn-icon bg-primary" target="_blank"
-                  href="https://web.facebook.com/aripin.p.18" rel="tooltip" title="Lihat Profile Facebook"><i
-                    class="fa fa-facebook"></i></a>
-                <a class="btn btn-default btn-round btn-lg btn-icon bg-primary" target="_blank"
-                  href="https://github.com/ujangaripin24" rel="tooltip" title="Lihat Profile Github"><i
-                    class="fa fa-github"></i></a>
-                <a class="btn btn-default btn-round btn-lg btn-icon bg-primary" target="_blank"
-                  href="https://www.linkedin.com/in/ujang-aripin-a80107237" rel="tooltip"
-                  title="Lihat Profile LinkedIn"><i class="fa fa-linkedin"></i></a>
-                <a class="btn btn-default btn-round btn-lg btn-icon bg-primary" target="_blank"
-                  href="https://www.instagram.com/aripin_2401/" rel="tooltip" title="Lihat Profile Instagram"><i
-                    class="fa fa-instagram"></i></a>
-                <a class="btn btn-default btn-round btn-lg btn-icon bg-primary" target="_blank"
-                  href="https://api.whatsapp.com/send/?phone=%2B6285959834070&text&type=phone_number&app_absent=0"
-                  rel="tooltip" title="Kirim Pesan WhatsApp"><i class="fa fa-whatsapp"></i></a>
-              </div>
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h3 class="mb-4">Pendidikan Saya</h3>
+                    <div class="border-left border-primary pt-2 pl-4 ml-2">
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                            <h5 class="font-weight-bold mb-1">(S1) Sistem Informasi</h5>
+                            <p class="mb-2"><strong>STMIK AMIKBANDUNG</strong> | <small>2018 - 2022</small></p>
+                        </div>
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                            <h5 class="font-weight-bold mb-1">Rekayasa Perangkat Lunak</h5>
+                            <p class="mb-2"><strong>SMK DHYANA SAKTI</strong> | <small>2015 - 2018</small></p>
+                        </div>
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                            <h5 class="font-weight-bold mb-1">Sekolah Menengah Pertama</h5>
+                            <p class="mb-2"><strong>SMP Nugraha</strong> | <small>2012 - 2015</small></p>
+                        </div>
+                        <div class="position-relative mb-4">
+                          <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                          <h5 class="font-weight-bold mb-1">Sekolah Dasar</h5>
+                          <p class="mb-2"><strong>SDN Pasawahan 07</strong> | <small>2006 - 2012</small></p>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <h3 class="mb-4">Pengalaman Bekerja</h3>
+                    <div class="border-left border-primary pt-2 pl-4 ml-2">
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                            <h5 class="font-weight-bold mb-1">Web Designer</h5>
+                            <p class="mb-2"><strong>Soft Company</strong> | <small>2000 - 2050</small></p>
+                            <p>Tempor eos dolore amet tempor dolor tempor. Dolore ea magna sit amet dolor eirmod. Eos ipsum est tempor dolor. Clita lorem kasd sed ea lorem diam ea lorem eirmod duo sit ipsum stet lorem diam</p>
+                        </div>
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                            <h5 class="font-weight-bold mb-1">Web Designer</h5>
+                            <p class="mb-2"><strong>Soft Company</strong> | <small>2000 - 2050</small></p>
+                            <p>Tempor eos dolore amet tempor dolor tempor. Dolore ea magna sit amet dolor eirmod. Eos ipsum est tempor dolor. Clita lorem kasd sed ea lorem diam ea lorem eirmod duo sit ipsum stet lorem diam</p>
+                        </div>
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                            <h5 class="font-weight-bold mb-1">Web Designer</h5>
+                            <p class="mb-2"><strong>Soft Company</strong> | <small>2000 - 2050</small></p>
+                            <p>Tempor eos dolore amet tempor dolor tempor. Dolore ea magna sit amet dolor eirmod. Eos ipsum est tempor dolor. Clita lorem kasd sed ea lorem diam ea lorem eirmod duo sit ipsum stet lorem diam</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
     </div>
-    <div class="section" id="about">
-      <div class="container wrapper">
-        <div class="card" data-aos="fade-up" data-aos-offset="10">
-          <div class="row">
-            <div class="col-lg-6 col-md-12">
-              <div class="card-body">
-                <div class="h4 mt-0 title">TENTANG SAYA</div>
-                <p class="text-justify">
-                  Saya adalah lulusan dari STMIK AMIK Bandung dengan IPK sebesar 3.32,
-                  meraih gelar dalam jurusan Sistem Informasi dengan fokus pada pengembangan perangkat lunak dan
-                  pemetaan digital berbasis website.
-                  Saya memiliki pengalaman sebagai pengembang aplikasi berbasis website menggunakan PHP Framework dan
-                  JavaScript Framework,
-                  seperti Vue.js, React.js, dan Next.js. Kemampuan bekerja secara tim untuk proyek kolaborasi
-                  menggunakan GIT sebagai kontrol versi
-                  sudah menjadi bagian dari rutinitas saya.
-                  Selain itu, saya juga cukup familiar dengan Angular, React-Native, Flutter, Typescript, Vite.js,
-                  Codeigniter, Laravel,
-                  Bootstrap, Bulma, dan MUI. Minat saya tidak hanya terbatas pada pengembangan,
-                  tetapi juga melibatkan desain grafis dengan keahlian dalam penggunaan Adobe Photoshop, Adobe
-                  Illustrator, dan Figma.
-                </p>
-              </div>
+    <!-- Qualification End -->
+
+    <!-- Services Start -->
+    <div class="container-fluid pt-5" id="service">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Service</h1>
+                <h1 class="position-absolute text-uppercase text-primary">My Services</h1>
             </div>
-            <div class="col-lg-6 col-md-12">
-              <div class="card-body">
-                <div class="h4 mt-0 title">IDENTITAS SAYA</div>
-                <div class="row">
-                  <div class="col-sm-4"><strong class="text-uppercase">Usia</strong></div>
-                  <div class="col-sm-8">: 24 Tahun</div>
+            <div class="row pb-3">
+                <div class="col-lg-4 col-md-6 text-center mb-5">
+                    <div class="d-flex align-items-center justify-content-center mb-4">
+                        <i class="fa fa-2x fa-laptop service-icon bg-primary text-white mr-3"></i>
+                        <h4 class="font-weight-bold m-0">Web Design</h4>
+                    </div>
+                    <p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem lorem est amet labore eirmod erat clita</p>
+                    <a class="border-bottom border-primary text-decoration-none" href="">Read More</a>
                 </div>
-                <div class="row mt-3">
-                  <div class="col-sm-4"><strong class="text-uppercase">Email</strong></div>
-                  <div class="col-sm-8">: ujangarifin06@gmail.com</div>
+                <div class="col-lg-4 col-md-6 text-center mb-5">
+                    <div class="d-flex align-items-center justify-content-center mb-4">
+                        <i class="fa fa-2x fa-laptop-code service-icon bg-primary text-white mr-3"></i>
+                        <h4 class="font-weight-bold m-0">Web Development</h4>
+                    </div>
+                    <p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem lorem est amet labore eirmod erat clita</p>
+                    <a class="border-bottom border-primary text-decoration-none" href="">Read More</a>
                 </div>
-                <div class="row mt-3">
-                  <div class="col-sm-4"><strong class="text-uppercase">Nomor Telepon</strong></div>
-                  <div class="col-sm-8">: 0859-5983-4070</div>
+                <div class="col-lg-4 col-md-6 text-center mb-5">
+                    <div class="d-flex align-items-center justify-content-center mb-4">
+                        <i class="fab fa-2x fa-android service-icon bg-primary text-white mr-3"></i>
+                        <h4 class="font-weight-bold m-0">Apps Design</h4>
+                    </div>
+                    <p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem lorem est amet labore eirmod erat clita</p>
+                    <a class="border-bottom border-primary text-decoration-none" href="">Read More</a>
                 </div>
-                <div class="row mt-3">
-                  <div class="col-sm-4"><strong class="text-uppercase">Alamat</strong></div>
-                  <div class="col-sm-8">: Sekekuda, Moh.Toha, Kota Bandung, Indonesia</div>
+                <div class="col-lg-4 col-md-6 text-center mb-5">
+                    <div class="d-flex align-items-center justify-content-center mb-4">
+                        <i class="fab fa-2x fa-apple service-icon bg-primary text-white mr-3"></i>
+                        <h4 class="font-weight-bold m-0">Apps Development</h4>
+                    </div>
+                    <p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem lorem est amet labore eirmod erat clita</p>
+                    <a class="border-bottom border-primary text-decoration-none" href="">Read More</a>
                 </div>
-                <div class="row mt-3">
-                  <div class="col-sm-4"><strong class="text-uppercase">Bahasa Asing</strong></div>
-                  <div class="col-sm-8">: English (Intermediate)</div>
+                <div class="col-lg-4 col-md-6 text-center mb-5">
+                    <div class="d-flex align-items-center justify-content-center mb-4">
+                        <i class="fa fa-2x fa-search service-icon bg-primary text-white mr-3"></i>
+                        <h4 class="font-weight-bold m-0">SEO</h4>
+                    </div>
+                    <p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem lorem est amet labore eirmod erat clita</p>
+                    <a class="border-bottom border-primary text-decoration-none" href="">Read More</a>
                 </div>
-              </div>
+                <div class="col-lg-4 col-md-6 text-center mb-5">
+                    <div class="d-flex align-items-center justify-content-center mb-4">
+                        <i class="fa fa-2x fa-edit service-icon bg-primary text-white mr-3"></i>
+                        <h4 class="font-weight-bold m-0">Content Creating</h4>
+                    </div>
+                    <p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem lorem est amet labore eirmod erat clita</p>
+                    <a class="border-bottom border-primary text-decoration-none" href="">Read More</a>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
     </div>
-    <div class="section" id="skill">
-      <div class="container wrapper">
-        <div class="h4 text-center mb-4 title">KETERAMPILAN</div>
-        <div class="card" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-          <div class="card-body">
-            <div class="row">
-              <div class="col-md-6">
-                <div class="progress-container ">
+    <!-- Services End -->
 
-                  <img src="./images/logo-1.png" width="35" height="35" />
-                  <span class="progress-badge"><b> Vue.js</b></span>
-                  <hr>
 
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="progress-container">
-
-                  <img src="./images/logo-8.png" width="35" height="35" />
-                  <span class="progress-badge"><b>
-                      CodeIgniter</b></span>
-                  <hr>
-
-                </div>
-              </div>
+    <!-- Portfolio Start -->
+    <div class="container-fluid pt-5 pb-3" id="portfolio">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Gallery</h1>
+                <h1 class="position-absolute text-uppercase text-primary">My Portfolio</h1>
             </div>
             <div class="row">
-              <div class="col-md-6">
-                <div class="progress-container">
-
-                  <img src="./images/logo-2.png" width="35" height="35" />
-                  <span class="progress-badge"><b> React.js</b></span>
-                  <hr>
-
+                <div class="col-12 text-center mb-2">
+                    <ul class="list-inline mb-4" id="portfolio-flters">
+                        <li class="btn btn-sm btn-outline-primary m-1 active"  data-filter="*">All</li>
+                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".first">Design</li>
+                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".second">Development</li>
+                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".third">Marketing</li>
+                    </ul>
                 </div>
-              </div>
-              <div class="col-md-6">
-                <div class="progress-container">
-
-                  <img src="./images/logo-7.png" width="35" height="35" />
-                  <span class="progress-badge"><b> Laravel</b></span>
-                  <hr>
-
-                </div>
-              </div>
             </div>
-            <div class="row">
-              <div class="col-md-6">
-                <div class="progress-container">
-
-                  <img src="./images/logo-3.png" width="35" height="35" />
-                  <span class="progress-badge"><b> Next.js</b></span>
-                  <hr>
-
+            <div class="row portfolio-container">
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/portfolio-1.jpg" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/portfolio-1.jpg" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
                 </div>
-              </div>
-              <div class="col-md-6">
-                <div class="progress-container">
-
-                  <img src="./images/logo-9.png" width="35" height="35" />
-                  <span class="progress-badge"><b>
-                      Bootstrap</b></span>
-                  <hr>
-
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/portfolio-2.jpg" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/portfolio-2.jpg" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
                 </div>
-              </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item third">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/portfolio-3.jpg" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/portfolio-3.jpg" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/portfolio-4.jpg" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/portfolio-4.jpg" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/portfolio-5.jpg" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/portfolio-5.jpg" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item third">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/portfolio-6.jpg" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/portfolio-6.jpg" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="row">
-              <div class="col-md-6">
-                <div class="progress-container">
-
-                  <img src="./images/logo-4.png" width="35" height="35" />
-                  <span class="progress-badge"><b> Leaflet.js & Mapbox</b></span>
-                  <hr>
-
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="progress-container">
-
-                  <img src="./images/logo-6.png" width="35" height="35" />
-                  <span class="progress-badge"><b> Bulma</b></span>
-                  <hr>
-
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-6">
-                <div class="progress-container">
-
-                  <img src="./images/logo-5.png" width="35" height="35" />
-                  <span class="progress-badge"><b> Material
-                      UI</b></span>
-                  <hr>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="progress-container">
-
-                  <img src="./images/logo-16.png" width="35" height="35" />
-                  <span class="progress-badge"><b> Figma</b></span>
-                  <hr>
-
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-6">
-                <div class="progress-container ">
-
-                  <img src="./images/logo-10.png" width="35" height="35" />
-                  <span class="progress-badge"><b> Angular</b></span>
-                  <hr>
-
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="progress-container">
-
-                  <img src="./images/logo-11.png" width="35" height="35" />
-                  <span class="progress-badge"><b>
-                      React-Native (Android)</b></span>
-                  <hr>
-
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-6">
-                <div class="progress-container">
-
-                  <img src="./images/logo-12.png" width="35" height="35" />
-                  <span class="progress-badge"><b> Flutter (Android)</b></span>
-                  <hr>
-
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="progress-container">
-
-                  <img src="./images/logo-14.png" width="35" height="35" />
-                  <span class="progress-badge"><b> Typescript</b></span>
-                  <hr>
-
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-6">
-                <div class="progress-container">
-
-                  <img src="./images/logo-13.png" width="35" height="35" />
-                  <span class="progress-badge"><b> Vite.js</b></span>
-                  <hr>
-
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="progress-container">
-
-                  <img src="./images/logo-17.png" width="35" height="35" />
-                  <span class="progress-badge"><b>
-                      Adobe Photoshop</b></span>
-                  <hr>
-
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-6">
-                <div class="progress-container">
-
-                  <img src="./images/logo-15.png" width="35" height="35" />
-                  <span class="progress-badge"><b> Adobe Illustrator</b></span>
-                  <hr>
-
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="progress-container">
-
-                  <img src="./images/logo-18.png" width="35" height="35" />
-                  <span class="progress-badge"><b> Ionic & Capacitor</b></span>
-                  <hr>
-
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
-      </div>
     </div>
-    <div class="section" id="portfolio">
-      <div class="container cc-portfolio">
-        <div class="h4 text-center mb-4 title">PORTOFOLIO SAYA</div>
-        <div class="text-center">
-          <button class="btn " onclick="toggleHandlerPorto('handlePortoFirst')">
-            <b>PROYEK PEKERJAAN</b>
-          </button>
-          <button class="btn " onclick="toggleHandlerPorto('handlePortoSecond')">
-            <b>PROYEK PRIBADI</b>
-          </button>
-        </div>
-        <div id="handlePortoFirst" style="display: none;" class="mt-2">
-          <div class="card">
-            <div class="body">
-              <div class="item row">
-                <a class="col-md-4 col-sm-4 col-xs-12">
-                  <div class="card-body">
-                    <img class="img-responsive project-image" src="./images/project-10.png" alt="project name" />
-                  </div>
-                </a>
-                <div class="desc col-md-8 col-sm-8 col-xs-12">
-                  <div class="card-body">
-                    <div class="h5">School Management System </div>
-                    <p class="text-capitalize text-justify">Proyek "School Management System" adalah sebuah aplikasi
-                      yang dirancang untuk mempermudah pengelolaan sekolah dengan mengintegrasikan teknologi modern.
-                      Aplikasi ini dibangun dengan menggunakan teknologi terbaru, seperti React.js, MUI (Material-UI),
-                      dan CKEditor5, untuk memberikan pengguna pengalaman yang responsif, estetis, dan user-friendly.
-                    </p>
-                    <div class="container">
-                      <div class="row">
-                        <div class="col-md-8">
-                          <table class="table table-borderless">
-                            <tbody>
-                              <tr>
-                                <td><i class="fa fa-users mr-2"></i>Team</td>
-                                <td>:</td>
-                                <td>6 Orang</td>
-                              </tr>
-                              <tr>
-                                <td><i class="fa fa-calendar-o mr-2" aria-hidden="true"></i>Tahun Pembuatan</td>
-                                <td>:</td>
-                                <td>2023</td>
-                              </tr>
-                              <tr>
-                                <td><i class="fa fa-user mr-2" aria-hidden="true"></i>Peran</td>
-                                <td>:</td>
-                                <td>Frontend</td>
-                              </tr>
-                            </tbody>
-                          </table>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="container">
-                      <div class="row">
-                        <div class="col-md-10">
-                          <p>
-                            Teknologi Yang Digunakan : <br />
-                            <span class="badge badge-danger">React.js</span>
-                            <span class="badge badge-success">Material-UI</span>
-                            <span class="badge badge-info">CKEditor 5</span>
-                            <span class="badge badge-warning">Axios</span>
-                            <span class="badge badge-primary">Figma</span>
-                            <span class="badge badge-danger">Putty</span>
-                            <span class="badge badge-success">GIT</span>
-                            <span class="badge badge-warning">AWS</span>
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="card">
-            <div class="body">
-              <div class="item row">
-                <a class="col-md-4 col-sm-4 col-xs-12">
-                  <div class="card-body">
-                    <img class="img-responsive project-image" src="./images/project-9.png" alt="project name" />
-                  </div>
-                </a>
-                <div class="desc col-md-8 col-sm-8 col-xs-12">
-                  <div class="card-body">
-                    <div class="h5">Virtual Business Disaster Operation Center</div>
-                    <p class="text-capitalize text-justify">Aplikasi Virtual Business Disaster Operation Center adalah
-                      solusi inovatif yang berperan penting dalam manajemen keadaan darurat dan mitigasi dampaknya
-                      pada
-                      bisnis. Dengan antarmuka yang interaktif dan responsif, aplikasi ini memungkinkan tim manajemen
-                      bisnis untuk mengakses informasi penting secara real-time.</p>
-                    <div class="container">
-                      <div class="row">
-                        <div class="col-md-8">
-                          <table class="table table-borderless">
-                            <tbody>
-                              <tr>
-                                <td><i class="fa fa-users mr-2"></i>Team</td>
-                                <td>:</td>
-                                <td>5 Orang</td>
-                              </tr>
-                              <tr>
-                                <td><i class="fa fa-calendar-o mr-2" aria-hidden="true"></i>Tahun Pembuatan</td>
-                                <td>:</td>
-                                <td>2023</td>
-                              </tr>
-                              <tr>
-                                <td><i class="fa fa-user mr-2" aria-hidden="true"></i>Peran</td>
-                                <td>:</td>
-                                <td>Frontend</td>
-                              </tr>
-                            </tbody>
-                          </table>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="container">
-                      <div class="row">
-                        <div class="col-md-10">
-                          <p>
-                            Teknologi Yang Digunakan : <br />
-                            <span class="badge badge-danger">Vue.js</span>
-                            <span class="badge badge-warning">Express</span>
-                            <span class="badge badge-primary">Axios</span>
-                            <span class="badge badge-info">WinSCP</span>
-                            <span class="badge badge-danger">Vue-Bootstrap</span>
-                            <span class="badge badge-warning">Vue-Easytable</span>
-                            <span class="badge badge-primary">Putty</span>
-                            <span class="badge badge-danger">Git</span>
-                            <span class="badge badge-warning">Apexchart.js</span>
-                            <span class="badge badge-primary">Vue-Bootstrap</span>
-                            <span class="badge badge-warning">Ubuntu Server</span>
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="card">
-            <div class="body">
-              <div class="item row">
-                <a class="col-md-4 col-sm-4 col-xs-12">
-                  <div class="card-body">
-                    <img class="img-responsive project-image" src="./images/project-8.png" alt="project name" />
-                  </div>
-                </a>
-                <div class="desc col-md-8 col-sm-8 col-xs-12">
-                  <div class="card-body">
-                    <div class="h5">System Information for Emergency Preparedness & Response</div>
-                    <p class="text-capitalize text-justify">Aplikasi System Information for Emergency Preparedness &
-                      Response adalah Aplikasi yang dirancang untuk menghadirkan tanggapan cepat dan efektif dalam
-                      situasi darurat. Berdasarkan teknologi modern seperti Vue.js, Leaflet, ApexCharts, dan Axios,
-                      aplikasi ini memberikan alat yang kuat untuk pengumpulan, visualisasi, dan analisis data yang
-                      sangat penting dalam situasi krisis.</p>
-                    <div class="container">
-                      <div class="row">
-                        <div class="col-md-8">
-                          <table class="table table-borderless">
-                            <tbody>
-                              <tr>
-                                <td><i class="fa fa-users mr-2"></i>Team</td>
-                                <td>:</td>
-                                <td>5 Orang</td>
-                              </tr>
-                              <tr>
-                                <td><i class="fa fa-calendar-o mr-2" aria-hidden="true"></i>Tahun Pembuatan</td>
-                                <td>:</td>
-                                <td>2023</td>
-                              </tr>
-                              <tr>
-                                <td><i class="fa fa-user mr-2" aria-hidden="true"></i>Peran</td>
-                                <td>:</td>
-                                <td>Frontend</td>
-                              </tr>
-                            </tbody>
-                          </table>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="container">
-                      <div class="row">
-                        <div class="col-md-10">
-                          <p>
-                            Teknologi Yang Digunakan : <br />
-                            <span class="badge badge-danger">Vue.js</span>
-                            <span class="badge badge-warning">Express</span>
-                            <span class="badge badge-primary">Axios</span>
-                            <span class="badge badge-info">WinSCP</span>
-                            <span class="badge badge-danger">Vue-Bootstrap</span>
-                            <span class="badge badge-warning">Vue-Easytable</span>
-                            <span class="badge badge-primary">Putty</span>
-                            <span class="badge badge-danger">Git</span>
-                            <span class="badge badge-warning">Apexchart.js</span>
-                            <span class="badge badge-primary">Vue-Bootstrap</span>
-                            <span class="badge badge-warning">AWS</span>
-                            <span class="badge badge-danger">Ubuntu Server</span>
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="card">
-            <div class="body">
-              <div class="item row">
-                <a class="col-md-4 col-sm-4 col-xs-12">
-                  <div class="card-body">
-                    <img class="img-responsive project-image" src="./images/project-7.png" alt="project name" />
-                  </div>
-                </a>
-                <div class="desc col-md-8 col-sm-8 col-xs-12">
-                  <div class="card-body">
-                    <div class="h5">E-voting</div>
-                    <p class="text-capitalize text-justify">Aplikasi E-Voting yang kami ciptakan menggunakan teknologi
-                      terbaru untuk memberikan pengalaman pemilihan yang aman, transparan, dan efisien. Berbasis
-                      Next.js, platform ini memberikan kecepatan dan kinerja luar biasa, sehingga pemilih dapat dengan
-                      mudah dan cepat melakukan pemilihan mereka.</p>
-                    <div class="container">
-                      <div class="row">
-                        <div class="col-md-10">
-                          <table class="table table-borderless">
-                            <tbody>
-                              <tr>
-                                <td><i class="fa fa-users mr-2"></i>Team</td>
-                                <td>:</td>
-                                <td>5 Orang</td>
-                              </tr>
-                              <tr>
-                                <td><i class="fa fa-calendar-o mr-2" aria-hidden="true"></i>Tahun Pembuatan</td>
-                                <td>:</td>
-                                <td>2023</td>
-                              </tr>
-                              <tr>
-                                <td><i class="fa fa-user mr-2" aria-hidden="true"></i>Peran</td>
-                                <td>:</td>
-                                <td>Frontend</td>
-                              </tr>
-                            </tbody>
-                          </table>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="container">
-                      <div class="row">
-                        <div class="col-md-10">
-                          <p>
-                            Teknologi Yang Digunakan : <br />
-                            <span class="badge badge-danger">Next.js</span>
-                            <span class="badge badge-warning">Express</span>
-                            <span class="badge badge-primary">Axios</span>
-                            <span class="badge badge-success">WinSCP</span>
-                            <span class="badge badge-info">Putty</span>
-                            <span class="badge badge-danger">Git</span>
-                            <span class="badge badge-primary">AWS</span>
-                            <span class="badge badge-warning">Apexchart.js</span>
-                            <span class="badge badge-primary">Reactstrap</span>
-                            <span class="badge badge-danger">Ubuntu Server</span>
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="card">
-            <div class="body">
-              <div class="item row">
-                <a class="col-md-4 col-sm-4 col-xs-12">
-                  <div class="card-body">
-                    <img class="img-responsive project-image" src="./images/project-4.png" alt="project name" />
-                  </div>
-                </a>
-                <div class="desc col-md-8 col-sm-8 col-xs-12">
-                  <div class="card-body">
-                    <div class="h5">Sistem Informasi Pantau Banjir</div>
-                    <p class="text-capitalize text-justify">Aplikasi Sistem Informasi Pantau Banjir adalah solusi yang
-                      inovatif
-                      dan penting dalam upaya memitigasi risiko banjir dan melindungi masyarakat. Dengan memanfaatkan
-                      berbagai teknologi modern, menciptakan alat yang kuat untuk memantau dan memberikan
-                      informasi yang sangat dibutuhkan tentang kondisi banjir dalam waktu nyata.</p>
-                    <div class="container">
-                      <div class="row">
-                        <div class="col-md-8">
-                          <table class="table table-borderless">
-                            <tbody>
-                              <tr>
-                                <td><i class="fa fa-users mr-2"></i>Team</td>
-                                <td>:</td>
-                                <td>1 Orang</td>
-                              </tr>
-                              <tr>
-                                <td><i class="fa fa-calendar-o mr-2" aria-hidden="true"></i>Tahun Pembuatan</td>
-                                <td>:</td>
-                                <td>2021</td>
-                              </tr>
-                              <tr>
-                                <td><i class="fa fa-user mr-2" aria-hidden="true"></i>Peran</td>
-                                <td>:</td>
-                                <td>Fullstack</td>
-                              </tr>
-                            </tbody>
-                          </table>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="container">
-                      <div class="row">
-                        <div class="col-md-8">
-                          <p>
-                            Teknologi Yang Digunakan : <br />
-                            <span class="badge badge-primary">Codeigniter 3</span>
-                            <span class="badge badge-warning">Chart.js</span>
-                            <span class="badge badge-danger">JavaScript</span>
-                            <span class="badge badge-info">Git</span>
-                            <span class="badge badge-success">Leaflet</span>
-                            <span class="badge badge-primary">Open Street Map API</span>
-                            <span class="badge badge-warning">MySQL</span>
-                            <span class="badge badge-danger">000webhost</span>
-                            <span class="badge badge-info">Ubuntu Server</span>
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="card">
-            <div class="body">
-              <div class="item row">
-                <a class="col-md-4 col-sm-4 col-xs-12">
-                  <div class="card-body">
-                    <img class="img-responsive project-image" src="./images/project-5.png" alt="project name" />
-                  </div>
-                </a>
-                <div class="desc col-md-8 col-sm-8 col-xs-12">
-                  <div class="card-body">
-                    <div class="h5">Sistem Informasi Pegawai</div>
-                    <p class="text-capitalize text-justify">Dalam era informasi yang berkembang pesat, kami dengan
-                      bangga
-                      mempersembahkan Sistem Informasi Pegawai, sebuah aplikasi canggih yang dirancang untuk
-                      memudahkan
-                      manajemen sumber daya manusia dengan efisien. Aplikasi ini ditenagai oleh berbagai teknologi
-                      mutakhir, menciptakan ekosistem yang memungkinkan perusahaan untuk melacak, mengelola, dan
-                      mengoptimalkan tenaga kerja mereka dengan mudah.</p>
-                    <div class="container">
-                      <div class="row">
-                        <div class="col-md-8">
-                          <table class="table table-borderless">
-                            <tbody>
-                              <tr>
-                                <td><i class="fa fa-users mr-2"></i>Team</td>
-                                <td>:</td>
-                                <td>5 Orang</td>
-                              </tr>
-                              <tr>
-                                <td><i class="fa fa-calendar-o mr-2" aria-hidden="true"></i>Tahun Pembuatan</td>
-                                <td>:</td>
-                                <td>2020</td>
-                              </tr>
-                              <tr>
-                                <td><i class="fa fa-user mr-2" aria-hidden="true"></i>Peran</td>
-                                <td>:</td>
-                                <td>Frontend</td>
-                              </tr>
-                            </tbody>
-                          </table>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="container">
-                      <div class="row">
-                        <div class="col-md-10">
-                          <p>
-                            Teknologi Yang Digunakan.<br />
-                            <span class="badge badge-info">Codeigniter 4</span>
-                            <span class="badge badge-success">Chart.js</span>
-                            <span class="badge badge-primary">JavaScript</span>
-                            <span class="badge badge-danger">Leaflet</span>
-                            <span class="badge badge-warning">Open Street Map API</span>
-                            <span class="badge badge-info">MySQL</span>
-                            <span class="badge badge-info">Filezilla</span>
-                            <span class="badge badge-success">Git</span>
-                            <span class="badge badge-primary">Putty</span>
-                            <span class="badge badge-danger">Ubuntu Server</span>
-                            <span class="badge badge-warning">Admin LTE 3</span>
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="card">
-            <div class="body">
-              <div class="item row">
-                <a class="col-md-4 col-sm-4 col-xs-12">
-                  <div class="card-body">
-                    <img class="img-responsive project-image" src="./images/project-6.jpg" alt="project name" />
-                  </div>
-                </a>
-                <div class="desc col-md-8 col-sm-8 col-xs-12">
-                  <div class="card-body">
-                    <div class="h5">Aplikasi Kasir & Inventory</div>
-                    <p class="text-capitalize text-justify">Aplikasi Kasir dan Inventory kami adalah solusi canggih
-                      yang
-                      dirancang
-                      untuk mengoptimalkan dan mempermudah manajemen kasir yang kompleks. Ditenagai oleh kombinasi
-                      teknologi modern, aplikasi ini memberikan alat yang kuat bagi perusahaan untuk mengelola
-                      persediaan mereka dengan efisien.</p>
-                    <div class="container">
-                      <div class="row">
-                        <div class="col-md-8">
-                          <table class="table table-borderless">
-                            <tbody>
-                              <tr>
-                                <td><i class="fa fa-users mr-2"></i>Team</td>
-                                <td>:</td>
-                                <td>5 Orang</td>
-                              </tr>
-                              <tr>
-                                <td><i class="fa fa-calendar-o mr-2" aria-hidden="true"></i>Tahun Pembuatan</td>
-                                <td>:</td>
-                                <td>2019</td>
-                              </tr>
-                              <tr>
-                                <td><i class="fa fa-user mr-2" aria-hidden="true"></i>Peran</td>
-                                <td>:</td>
-                                <td>Frontend</td>
-                              </tr>
-                            </tbody>
-                          </table>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="container">
-                      <div class="row">
-                        <div class="col-md-10">
-                          <p>
-                            Teknologi Yang Digunakan.<br />
-                            <span class="badge badge-warning">Codeigniter 3</span>
-                            <span class="badge badge-info">JavaScript</span>
-                            <span class="badge badge-primary">MySQL</span>
-                            <span class="badge badge-warning">Chart.js</span>
-                            <span class="badge badge-danger">Filezilla</span>
-                            <span class="badge badge-success">Putty</span>
-                            <span class="badge badge-warning">Ubuntu Server</span>
-                            <span class="badge badge-info">Git</span>
+    <!-- Portfolio End -->
 
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+    <!-- Footer Start -->
+    <div class="container-fluid bg-primary text-white mt-5 py-5 px-sm-3 px-md-5">
+        <div class="container text-center py-5">
+            <div class="d-flex justify-content-center mb-4">
+                <a class="btn btn-light btn-social mr-2" href="#"><i class="fab fa-twitter"></i></a>
+                <a class="btn btn-light btn-social mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-light btn-social mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a class="btn btn-light btn-social" href="#"><i class="fab fa-instagram"></i></a>
             </div>
-          </div>
-          <div class="card">
-            <div class="body">
-              <div class="item row">
-                <a class="col-md-4 col-sm-4 col-xs-12">
-                  <div class="card-body">
-                    <img class="img-responsive project-image" src="./images/project-3.png" alt="project name" />
-                  </div>
-                </a>
-                <div class="desc col-md-8 col-sm-8 col-xs-12">
-                  <div class="card-body">
-                    <div class="h5">Sistem Informasi Report Proyek Jalan</div>
-                    <p class="text-capitalize text-justify">dalam proyek inovatif ini, kami menghadirkan Sistem
-                      Informasi Report
-                      Proyek Jalan yang canggih dan efisien, didukung oleh rangkaian teknologi terkini. Menggunakan
-                      platform pengembangan web CodeIgniter 3, kami telah menciptakan solusi yang responsif untuk
-                      memantau dan melaporkan kemajuan proyek jalan dengan sangat efisien
-                      websitenya.</p>
-                    <div class="container">
-                      <div class="row">
-                        <div class="col-md-8">
-                          <table class="table table-borderless">
-                            <tbody>
-                              <tr>
-                                <td><i class="fa fa-users mr-2"></i>Team</td>
-                                <td>:</td>
-                                <td>3 Orang</td>
-                              </tr>
-                              <tr>
-                                <td><i class="fa fa-calendar-o mr-2" aria-hidden="true"></i>Tahun Pembuatan</td>
-                                <td>:</td>
-                                <td>2019</td>
-                              </tr>
-                              <tr>
-                                <td><i class="fa fa-user mr-2" aria-hidden="true"></i>Peran</td>
-                                <td>:</td>
-                                <td>Frontend</td>
-                              </tr>
-                            </tbody>
-                          </table>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="container">
-                      <div class="row">
-                        <div class="col-md-8">
-                          <p>
-                            Teknologi Yang Digunakan : <br />
-                            <span class="badge badge-danger">Codeigniter 3</span>
-                            <span class="badge badge-warning">Chart.js</span>
-                            <span class="badge badge-success">JavaScript</span>
-                            <span class="badge badge-info">MySQL</span>
-                            <span class="badge badge-primary">FileZilla</span>
-                            <span class="badge badge-danger">Git</span>
-                            <span class="badge badge-success">Putty</span>
-                            <span class="badge badge-warning">Ubuntu Server</span>
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+            <div class="d-flex justify-content-center mb-3">
+                <a class="text-white" href="#">Privacy</a>
+                <span class="px-3">|</span>
+                <a class="text-white" href="#">Terms</a>
+                <span class="px-3">|</span>
+                <a class="text-white" href="#">FAQs</a>
+                <span class="px-3">|</span>
+                <a class="text-white" href="#">Help</a>
             </div>
-          </div>
-          <div class="card">
-            <div class="body">
-              <div class="item row">
-                <a class="col-md-4 col-sm-4 col-xs-12">
-                  <div class="card-body">
-                    <img class="img-responsive project-image" src="./images/project-2.png" alt="project name" />
-                  </div>
-                </a>
-                <div class="desc col-md-8 col-sm-8 col-xs-12">
-                  <div class="card-body">
-                    <div class="h5">Website Informasi E-Cultur</div>
-                    <p class="text-capitalize text-justify">Dalam era digital yang terus berkembang, kami dengan
-                      bangga
-                      mempersembahkan Website Informasi E-Cultur, sebuah platform yang inovatif dan informatif yang
-                      dibangun dengan teknologi terkini. Dengan menggunakan framework web CodeIgniter 3 yang kuat,
-                      kami
-                      telah menciptakan sebuah ekosistem daring yang memungkinkan pengguna untuk menjelajahi,
-                      menggali,
-                      dan mendalam ke dalam kekayaan budaya Indonesia</p>
-                    <div class="container">
-                      <div class="row">
-                        <div class="col-md-8">
-                          <table class="table table-borderless">
-                            <tbody>
-                              <tr>
-                                <td><i class="fa fa-users mr-2"></i>Team</td>
-                                <td>:</td>
-                                <td>5 Orang</td>
-                              </tr>
-                              <tr>
-                                <td><i class="fa fa-calendar-o mr-2" aria-hidden="true"></i>Tahun Pembuatan</td>
-                                <td>:</td>
-                                <td>2019</td>
-                              </tr>
-                              <tr>
-                                <td><i class="fa fa-user mr-2" aria-hidden="true"></i>Peran</td>
-                                <td>:</td>
-                                <td>Frontend</td>
-                              </tr>
-                            </tbody>
-                          </table>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="container">
-                      <div class="row">
-                        <div class="col-md-8">
-                          <p>
-                            Teknologi Yang Digunakan : <br />
-                            <span class="badge badge-primary">Codeigniter 3</span>
-                            <span class="badge badge-info">JavaScript</span>
-                            <span class="badge badge-success">Git</span>
-                            <span class="badge badge-danger">Leaflet</span>
-                            <span class="badge badge-info">MySQL</span>
-                            <span class="badge badge-warning">Git</span>
-                            <span class="badge badge-success">Filezilla</span>
-                            <span class="badge badge-success">Putty</span>
-                            <span class="badge badge-warning">Ubuntu Server</span>
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+            <p class="m-0">&copy; <a class="text-white font-weight-bold" href="#">Domain Name</a>. All Rights Reserved. Designed by <a class="text-white font-weight-bold" href="https://htmlcodex.com">HTML Codex</a>
+            </p>
         </div>
-        <div id="handlePortoSecond" style="display: none;" class="mt-2">
-          <div class="card">
-            <div class="body">
-              <div class="item row">
-                <a class="col-md-4 col-sm-4 col-xs-12">
-                  <div class="card-body">
-                    <img class="img-responsive project-image" src="./images/project-11.png" alt="Project Image" />
-                  </div>
-                </a>
-                <div class="desc col-md-8 col-sm-8 col-xs-12">
-                  <div class="card-body">
-                    <div class="h5">Airbnb Clone (React Native & Clerk Authentication) </div>
-                    <p class="text-capitalize text-justify">
-                      Proyek Airbnb Clone ini dibangun menggunakan React Native dengan otentikasi pengguna yang dikelola
-                      oleh Clerk Authentication.
-                      Expo digunakan untuk memudahkan pengembangan lintas platform, sementara Google Maps API memberikan
-                      fitur interaktif penampilan lokasi.
-                      Data properti berasal dari <a href="http://insideairbnb.com/" target="_blank"
-                        rel="noopener noreferrer">Inside Airbnb</a>, memastikan informasi yang akurat dan mendalam.
-                    </p>
-                    <div class="container">
-                      <div class="row">
-                        <div class="col-md-8">
-                          <table class="table table-borderless">
-                            <tbody>
-                              <tr>
-                                <td><i class="fa fa-users mr-2"></i>Team</td>
-                                <td>:</td>
-                                <td>1 Orang</td>
-                              </tr>
-                              <tr>
-                                <td><i class="fa fa-calendar-o mr-2" aria-hidden="true"></i>Tahun Pembuatan</td>
-                                <td>:</td>
-                                <td>2023</td>
-                              </tr>
-                              <tr>
-                                <td><i class="fa fa-user mr-2" aria-hidden="true"></i>Peran</td>
-                                <td>:</td>
-                                <td>Mobile Dev</td>
-                              </tr>
-                            </tbody>
-                          </table>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="container">
-                      <div class="row">
-                        <div class="col-md-10">
-                          <p>
-                            Teknologi Yang Digunakan : <br />
-                            <span class="badge badge-success">Expo</span>
-                            <span class="badge badge-danger">React Native</span>
-                            <span class="badge badge-success">React Native Maps</span>
-                            <span class="badge badge-info">React Native Vector Icon</span>
-                            <span class="badge badge-warning">React Native Gorhom/Bottom-Sheet</span>
-                            <span class="badge badge-primary">Google Font</span>
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="card">
-            <div class="body">
-              <div class="item row">
-                <a class="col-md-4 col-sm-4 col-xs-12">
-                  <div class="card-body">
-                    <img class="img-responsive project-image" src="./images/project-11.png" alt="Project Image" />
-                  </div>
-                </a>
-                <div class="desc col-md-8 col-sm-8 col-xs-12">
-                  <div class="card-body">
-                    <div class="h5">Devliveroo Clone (React Native & Clerk Authentication) </div>
-                    <p class="text-capitalize text-justify">
-                      Proyek ini adalah replika aplikasi Deliveroo yang dikembangkan menggunakan teknologi React Native dan Expo, 
-                      dengan sistem otentikasi Clerk untuk keamanan tambahan. 
-                      Menggabungkan kemudahan Expo, integrasi React Native Maps, dan penampilan estetis dengan Expo Font, 
-                      proyek ini memberikan pengalaman pengguna yang responsif, aman, dan memukau.
-                    </p>
-                    <div class="container">
-                      <div class="row">
-                        <div class="col-md-8">
-                          <table class="table table-borderless">
-                            <tbody>
-                              <tr>
-                                <td><i class="fa fa-users mr-2"></i>Team</td>
-                                <td>:</td>
-                                <td>1 Orang</td>
-                              </tr>
-                              <tr>
-                                <td><i class="fa fa-calendar-o mr-2" aria-hidden="true"></i>Tahun Pembuatan</td>
-                                <td>:</td>
-                                <td>2023</td>
-                              </tr>
-                              <tr>
-                                <td><i class="fa fa-user mr-2" aria-hidden="true"></i>Peran</td>
-                                <td>:</td>
-                                <td>Mobile Dev</td>
-                              </tr>
-                            </tbody>
-                          </table>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="container">
-                      <div class="row">
-                        <div class="col-md-10">
-                          <p>
-                            Teknologi Yang Digunakan : <br />
-                            <span class="badge badge-success">Expo</span>
-                            <span class="badge badge-danger">React Native</span>
-                            <span class="badge badge-success">React Native Maps</span>
-                            <span class="badge badge-info">React Native Vector Icon</span>
-                            <span class="badge badge-warning">Expo System UI</span>
-                            <span class="badge badge-primary">Google Font</span>
-                            <span class="badge badge-primary">Zustand</span>
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
-    <div class="section" id="experience">
-      <div class="container cc-experience">
-        <div class="h4 text-center mb-4 title">Pengalaman Bekerja</div>
-        <div class="card">
-          <div class="row">
-            <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-              <div class="card-body cc-experience-header">
-                <p>Desember 2022 - November 2023</p>
-                <div class="h6">(Pegawai Kontrak)</div>
-              </div>
-            </div>
-            <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-              <div class="card-body">
-                <div class="h5">FRONTEND WEB DEVELOPER</div>
-                <div class="h6"><i class="fa fa-map-marker mr-2"></i>CBA Digitechno</div>
-                <p class="text-justify">Saya adalah seorang pegawai di CBA Digitechno dengan pengalaman sebagai
-                  Frontend Developer. Selama karier saya, saya telah bekerja pada berbagai proyek kolaborasi untuk
-                  pembuatan website. Fokus utama saya adalah pada pembangunan aplikasi yang melibatkan teknologi
-                  seperti Vue, React, dan Next.js. Saya juga memiliki Keahlian khusus dalam mengintegrasikan Peta
-                  dalam aplikasi untuk meningkatkan pengalaman pengguna.<br>
-                <ul class="list-group">
-                  <li class="list-group-item">VUE.JS</li>
-                  <li class="list-group-item">REACT.JS</li>
-                  <li class="list-group-item">NEXT.JS 13</li>
-                </ul>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
+    <!-- Footer End -->
 
-        <div class="card">
-          <div class="row">
-            <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-              <div class="card-body cc-experience-header">
-                <p>Maret 2020 - November 2022</p>
-                <div class="h6">(PARUH WAKTU)</div>
-              </div>
-            </div>
-            <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-              <div class="card-body">
-                <div class="h5">PHP WEB DEVELOPER</div>
-                <div class="h6"><i class="fa fa-map-marker mr-2"></i>STMIK AMIKBandung</div>
-                <p class="text-justify">Deskripsi Pekerjaan Saya Sebagai Programmer Adalah Membangun Website Dengan
-                  Bahasa Program PHP
-                  (Hypertext Preprocessor), JavaScript Dan Beberapa Bahasa Program Dengan Tools Lainnya Untuk
-                  Mendukung Pekerjaan Saya Sebagai Programmer Sepert.<br>
-                <ul class="list-group">
-                  <li class="list-group-item">VUE.JS</li>
-                  <li class="list-group-item">CODEIGNITER</li>
-                  <li class="list-group-item">LARAVEL</li>
-                </ul>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
+    <!-- Scroll to Bottom -->
+    <i class="fa fa-2x fa-angle-down text-white scroll-to-bottom"></i>
 
-        <div class="card">
-          <div class="row">
-            <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-              <div class="card-body cc-experience-header">
-                <p>September 2021 - Maret 2022</p>
-                <div class="h6">(MAGANG)</div>
-              </div>
-            </div>
-            <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-              <div class="card-body">
-                <div class="h5">DIGITAL CONTENT CREATOR</div>
-                <div class="h6"><i class="fa fa-map-marker mr-2"></i>Rumah Sakit Kartini Bandung</div>
-                <p class="text-justify">Deskripsi Pekerjaan Saya Membuatkan Desain untuk kebutuhan Pemasaran dan
-                  Informasi untuk
-                  ditampilkan di Instagram seperti.<br>
-                <ul class="list-group">
-                  <li class="list-group-item">Pembuatan Banner.</li>
-                  <li class="list-group-item">Pembuatan Frame Instagram.</li>
-                  <li class="list-group-item">Pembuatan Poster.</li>
-                </ul>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-outline-dark px-0 back-to-top"><i class="fa fa-angle-double-up"></i></a>
 
-        <div class="card">
-          <div class="row">
-            <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-              <div class="card-body cc-experience-header">
-                <p>September 2021 - Maret 2022</p>
-                <div class="h6">(MAGANG)</div>
-              </div>
-            </div>
-            <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-              <div class="card-body">
-                <div class="h5">IT SUPPORT</div>
-                <div class="h6"><i class="fa fa-map-marker mr-2"></i>Rumah Sakit Kartini Bandung</div>
-                <p class="text-justify">Sebagai IT Support Saya Membantu Setiap Permasalahan Yang Dihadapi Oleh Setiap
-                  Pengguna
-                  Seperti.<br>
-                <ul class="list-group">
-                  <li class="list-group-item">Permasalahan Jaringan.</li>
-                  <li class="list-group-item">Permasalahan Perangkat Keras.</li>
-                  <li class="list-group-item">Permasalahan Perangkat Lunak.</li>
-                </ul>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
 
-        <div class="card">
-          <div class="row">
-            <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-              <div class="card-body cc-experience-header">
-                <p>Maret 2019 - Agustus 2019</p>
-                <div class="h6">(PARUH WAKTU)</div>
-              </div>
-            </div>
-            <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-              <div class="card-body">
-                <div class="h5">GURU DESAIN GRAFIS</div>
-                <div class="h6"><i class="fa fa-map-marker mr-2"></i>Sekolah Menengah Kejuruan Dhyana Sakti</div>
-                <p class="text-justify">Deskripsi Pekerjaan Saya Sebagai Guru Desain Grafis Mengajarkan Beberapa
-                  Penggunaan Software
-                  Seperti.<br>
-                <ul class="list-group">
-                  <li class="list-group-item">Adobe Photoshop.</li>
-                  <li class="list-group-item">Adobe Illustrator.</li>
-                  <li class="list-group-item">Filmora.</li>
-                </ul>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/typed/typed.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
 
-        <div class="card">
-          <div class="row">
-            <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-              <div class="card-body cc-experience-header">
-                <p>Maret 2019 - Agustus 2019</p>
-                <div class="h6">(PARUH WAKTU)</div>
-              </div>
-            </div>
-            <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-              <div class="card-body">
-                <div class="h5">GURU PROGRAMMING</div>
-                <div class="h6"><i class="fa fa-map-marker mr-2"></i>Sekolah Menengah Kejuruan Dhyana Sakti</div>
-                <p class="text-justify">Deskripsi Pekerjaan Saya Sebagai Guru Programming Mengajarkan Cara Membangun
-                  Website Sederhana
-                  Dengan PHP dan Databasenya Menggunakan Phpmyadmin Dan Beberapa Bahasa Pemrograman & Query Dasar
-                  Seperti.<br>
-                <ul class="list-group">
-                  <li class="list-group-item">HTML.</li>
-                  <li class="list-group-item">CSS.</li>
-                  <li class="list-group-item">PHP.</li>
-                  <li class="list-group-item">PhpMyAdmin(MySQL).</li>
-                </ul>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
 
-        <div class="card">
-          <div class="row">
-            <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-              <div class="card-body cc-experience-header">
-                <p>Maret 2019 - November 2019</p>
-                <div class="h6">(PARUH WAKTU)</div>
-              </div>
-            </div>
-            <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-              <div class="card-body">
-                <div class="h5">FREELANCE DESAIN GRAFIS KOPI DESAIN</div>
-                <div class="h6"><i class="fa fa-map-marker mr-2"></i>Gyan Plaza , Pasir koja Bandung</div>
-                <p class="text-justify">Deskripsi Pekerjaan Saya Sebagai Guru Desain Grafis Membuat Karya Seni
-                  Beberapa Penggunaan Software
-                  Seperti.<br>
-                <ul class="list-group">
-                  <li class="list-group-item">Adobe Photoshop.</li>
-                  <li class="list-group-item">Adobe Illustrator.</li>
-                </ul>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-    <div class="section" id="education">
-      <div class="container cc-education">
-        <div class="h4 text-center mb-4 title">Riwayat Pendidikan</div>
-        <div class="card">
-          <div class="row">
-            <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-              <div class="card-body cc-education-header">
-                <p>2018 - 2022</p>
-                <div class="h5">Strata (S1)</div>
-              </div>
-            </div>
-            <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-              <div class="card-body">
-                <div class="h5">Sistem Informasi</div>
-                <p class="category">STMIK AMIKBandung</p>
-
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="card">
-          <div class="row">
-            <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-              <div class="card-body cc-education-header">
-                <p>2015 - 2018</p>
-                <div class="h5">Sekolah Menengah Kejuruan</div>
-              </div>
-            </div>
-            <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-              <div class="card-body">
-                <div class="h5">RPL</div>
-                <p class="category">SMK Dhyana Sakti</p>
-
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <footer class="footer">
-    <div class="h4 title text-center">Ujang Aripin</div>
-    <div class="text-center text-muted">
-      <p>&copy; Creative CV. All rights reserved.</p>
-    </div>
-  </footer>
-  <script src="js/core/jquery.3.2.1.min.js?ver=1.1.0"></script>
-  <script src="js/core/popper.min.js?ver=1.1.0"></script>
-  <script src="js/core/bootstrap.min.js?ver=1.1.0"></script>
-  <script src="js/now-ui-kit.js?ver=1.1.0"></script>
-  <script src="js/aos.js?ver=1.1.0"></script>
-  <script src="scripts/main.js?ver=1.1.0"></script>
-  <!-- <script>
-    function toggleHandlerSkill(id) {
-      document.getElementById('handleSkillFirst').style.display = 'none';
-      document.getElementById('handleSkillSecond').style.display = 'none';
-
-      document.getElementById(id).style.display = 'block';
-    }
-
-    document.getElementById('handleSkillFirst').style.display = 'block';
-  </script> -->
-  <script>
-    function toggleHandlerPorto(id) {
-      document.getElementById('handlePortoFirst').style.display = 'none';
-      document.getElementById('handlePortoSecond').style.display = 'none';
-
-      document.getElementById(id).style.display = 'block';
-    }
-
-    document.getElementById('handlePortoFirst').style.display = 'block';
-  </script>
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
 </body>
 
 </html>
