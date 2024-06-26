@@ -50,11 +50,11 @@
 <img title="Supabase" src="https://ujangaripin24.github.io/img/icon/Supabase.svg" alt="Supabase" height="25" style="vertical-align:top; margin-left: 15; margin:4px">
 <img title="Heroku" src="https://ujangaripin24.github.io/img/icon/Heroku.svg" alt="Heroku" height="25" style="vertical-align:top; margin-left: 15; margin:4px">
 <img title="Vercel" src="https://ujangaripin24.github.io/img/icon/Vercel.svg" alt="Vercel" height="25" style="vertical-align:top; margin-left: 15; margin:4px">
-<img title="VSCode" src="https://ujangaripin24.github.io/img/icon/VSCode-UI.svg" alt="Visual Code" height="25" style="vertical-align:top; margin-left: 15; margin:4px">
+<img title="VSCode" src="https://ujangaripin24.github.io/img/icon/VSCode.svg" alt="Visual Code" height="25" style="vertical-align:top; margin-left: 15; margin:4px">
 <img title="GIT" src="https://ujangaripin24.github.io/img/icon/GIT.svg" alt="GIT" height="25" style="vertical-align:top; margin-left: 15; margin:4px">
 <img title="Github" src="https://ujangaripin24.github.io/img/icon/Github.svg" alt="Github" height="25" style="vertical-align:top; margin-left: 15; margin:4px">
 <img title="Debian" src="https://ujangaripin24.github.io/img/icon/Debian.svg" alt="Debian" height="25" style="vertical-align:top; margin-left: 15; margin:4px">
-<img title="Phoptoshop" src="https://ujangaripin24.github.io/img/icon/Phoptoshop.svg" alt="Phoptoshop" height="25" style="vertical-align:top; margin-left: 15; margin:4px">
+<img title="Phoptoshop" src="https://ujangaripin24.github.io/img/icon/Photoshop.svg" alt="Phoptoshop" height="25" style="vertical-align:top; margin-left: 15; margin:4px">
 </p>
 
 <hr/>
